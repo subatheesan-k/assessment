@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -117,4 +118,14 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+body{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-item{
+  @apply flex flex-row gap-2 p-3 rounded-xl hover:cursor-pointer hover:bg-[#17C58B] hover:text-white
 }
