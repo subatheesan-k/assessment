@@ -126,6 +126,34 @@ body{
   font-style: normal;
 }
 
-.nav-item{
-  @apply flex flex-row gap-2 p-3 rounded-xl hover:cursor-pointer hover:bg-[#17C58B] hover:text-white
+.nav-item {
+  @apply flex flex-row gap-2 p-3 rounded-xl hover:cursor-pointer hover:bg-[#17C58B] text-gray-400 hover:text-white;
+}
+
+.active-tab {
+  @apply text-white bg-[#17C58B];
+}
+
+.rdp-chevron{
+  fill: #17C58B;
+}
+
+.rdp-root {
+  --rdp-accent-color: #17C58B !important;
+}
+
+.rdp-outside{
+  color: #9ca3af;
+}
+
+.rdp-outside.rdp-focused {
+  color: white !important;
+}
+
+.rdp {
+  width: 100% !important;
+}
+
+.rdp-chevron{
+  @apply border-2 rounded-full;
 }
