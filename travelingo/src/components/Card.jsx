@@ -7,7 +7,7 @@ const Card = ({image, title, location, rating}) => {
   const[isHover, setIsHover] = useState(false);
   return (
     <>
-        <div className="relative w-70 h-70 rounded-xl overflow-hidden hover:cursor-pointer" onMouseEnter={() => setIsHover((prev => !prev))} onMouseLeave={() => setIsHover((prev => !prev))}>
+        <div className="relative w-full h-[220px] rounded-xl overflow-hidden hover:cursor-pointer" onMouseEnter={() => setIsHover((prev => !prev))} onMouseLeave={() => setIsHover((prev => !prev))}>
             {isHover && (
                 <div className="absolute inset-0 bg-black opacity-45 z-10"></div>
             )}

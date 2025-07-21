@@ -17,7 +17,7 @@ const ListItem = ({ image, title, location, rating, price }) => {
           </p>
         </div>
 
-        <h1 className="text-right font-medium text-nowrap pr-2">${price} <span className="text-gray-500">/night</span></h1> 
+        <h1 className="text-right font-medium text-nowrap pr-2"><span className="font-bold">${price}</span><span className="text-gray-500">/night</span></h1> 
       </div>
     </div>
   );

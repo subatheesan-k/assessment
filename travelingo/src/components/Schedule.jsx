@@ -9,7 +9,7 @@ const Schedule = ({ image, title, dateRange }) => {
   <img src={image} alt="" className="rounded-xl w-[120px] h-[100px] object-cover" />
   <div className="grid gap-3">
     <h1 className="font-bold text-md">{title}</h1>
-    <p className="flex items-center gap-2 text-sm text-gray-600">
+    <p className="flex items-center gap-2 text-[12px] text-gray-600">
       <FaCalendarAlt className="text-gray-500" />
       {dateRange}
     </p>
